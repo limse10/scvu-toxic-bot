@@ -59,7 +59,7 @@ def leaderboard(update, context):
 
 def help(update, context):
     """Send a message when the command /help is issued."""
-    update.message.reply_text('toxic scores get added when u reply to message with /t. \n when u /t without a reply, it adds to the latest non "/t" message')
+    update.message.reply_text('toxic scores get added when u reply to message with /t.\n when u /t without a reply, it adds to the latest non "/t" message')
 
 def toxic(update, context):
     # update.message.reply_text('/t')
